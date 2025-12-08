@@ -7,9 +7,6 @@ Este projeto é um case fictício de manutenção preditiva inspirado em cenári
 - Predição de Remaining Useful Life (RUL): estimar o tempo restante até a falha de um ativo.
 Os modelos são expostos via FastAPI, permitindo integração com sistemas de manutenção e monitoramento.
 
-<p align="center">
-<img src="https://github.com/lucasrigobello/gods-unchained-api/blob/d92aec61a2f2ce76d7b79ab5821cc5812751865b/images/gods-unchained-cover.jpg?raw=true" width="450"></p>
-
 ## 🚀 Tecnologias utilizadas
 - **Python** (para implementação do modelo e da API)
 - **FastAPI** (para exposição do modelo via API REST)

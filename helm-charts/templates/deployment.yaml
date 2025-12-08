@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: predictivemaintenance-api
+  labels:
+    app: predictivemaintenance-api
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: predictivemaintenance-api
+  template:
+    metadata:
+      labels:
+        app: predictivemaintenance-api
+    spec:
+      containers:
+      - name: predictivemaintenance-api
+        image: lucasrigobello/predictivemaintenance
+        ports:
+        - containerPort: 8000
+        resources:
+          limits:
+            cpu: 500m
+          requests:
+            cpu: 200m

@@ -58,7 +58,7 @@ python src/main.py
 ```
 
 ## 🖥️ Utilização da API
-A API expõe um endpoint para prever a estratégia de um card:
+A API expõe um endpoint para prever a Close to Failyre (Classificação) e predição por regressão de RUL:
 
 - **GET** ```/classificar/{id}``` 
     - **Parâmetros:** ```id``` (ID do Asset a ser classificado)

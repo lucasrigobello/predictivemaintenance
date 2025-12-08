@@ -1,0 +1,14 @@
+data:
+  columns_names:
+    Asset id:
+      first: 0
+      last: 0
+    runtime:
+      first: 1
+      last: 1
+    Setting:
+      first: 2
+      last: 4
+    Tag:
+      first: 5
+      last: 27

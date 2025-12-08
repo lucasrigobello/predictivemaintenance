@@ -1,0 +1,39 @@
+title: Predição de RUL e Close to Failure - API com FastAPI
+summary: Manutenção preditiva
+
+description: >
+  Esta API foi desenvolvida para classificar se ativo está próximo da falha, assumindo como referência
+  que este esteja dentro de 20 ciclos para que ocorra sua falha. Como retorno da classficação tem-se uma
+  probabilidade de que o ativo esteja dentro dessa janela de 20 ciclos. Ou seja, permite-se a identificação
+  de falha iminente.
+
+  Também, existe a predição de tempo de vida restante para o ativo, também conhecidom como RUL - Reamining Useful Life.
+  Essa funcionaldiade permite executar uma avaliação preditiva do tempo até a falha, considerando-se a base de dados que 
+  representa as condições de operaçao que posseum mais influência sobre o ativo.
+
+  O modelo treinado utiliza técnicas de machine learning para realizar essa predição e é exposto publicamente 
+  através de uma API criada com **FastAPI**.
+
+  Para se realizar a predição e classificação utilize o id do Ativo que se deseja realizar a Avaliação de
+  Close to Faiule (Classificar) e RUL (Predict).
+
+version: "0.0.1"
+
+contact:
+  name: "Lucas Rigobello"
+  email: "lucasrigobello@gmail.com"
+      
+license_info:
+  name: "GitHub repositório"
+  url: "https://github.com/lucasrigobello/gods-unchained-api"
+
+openapi_tags:
+  -
+    "name": "Classificar"
+    "description": "Realize a classificação de Close to Failure - dentro de 20 ciclos para falha."
+  -
+    "name": "Predict"
+    "description": "Realize a prediçao de Remaining Useful Life - RUL."
+  -
+    "name": "Treinar Novo Modelo"
+    "description": "Execute o treinmaneto de um novo modelo, com a base de dados presente."

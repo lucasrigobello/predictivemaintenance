@@ -1,4 +1,4 @@
-# CCase Predictive Maintenance - API com FastAPI
+# Case Predictive Maintenance - API com FastAPI
 [![Docker Image CI](https://github.com/lucasrigobello/predictivemaintenance/actions/workflows/docker-image.yml/badge.svg)](https://github.com/lucasrigobello/predictivemaintenance/actions/workflows/docker-image.yml)
 
 ## 📌 Sobre o projeto
